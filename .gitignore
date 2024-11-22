@@ -1,0 +1,4 @@
+__pycache__
+.idea
+data/*
+!data/put_csv_test_data_here

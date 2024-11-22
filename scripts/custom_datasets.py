@@ -52,7 +52,7 @@ def process_spaces(story):
 
 
 def load_writing(cache_dir=None):
-    writing_path = 'data/writingPrompts'
+    writing_path = '../data/writingPrompts'
     
     with open(f'{writing_path}/valid.wp_source', 'r') as f:
         prompts = f.readlines()
