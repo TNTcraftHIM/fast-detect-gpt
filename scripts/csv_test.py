@@ -131,6 +131,7 @@ def run(args):
     print("avg_auroc: {:.4f}".format(sum(auroc_list) / len(auroc_list))
           + "; ".join(["std_auroc: {:.4f}".format(np.std(auroc_list))]))
     print("all_auroc: ", all_auroc)
+    print("auroc_list: ", auroc_list)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
